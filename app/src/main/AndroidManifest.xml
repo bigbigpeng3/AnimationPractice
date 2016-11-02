@@ -17,6 +17,10 @@
         </activity>
         <activity android:name=".MainActivity">
         </activity>
+        <activity android:name=".TriangleActivity">
+        </activity>
+        <activity android:name=".MovePathActivity">
+        </activity>
     </application>
 
 </manifest>

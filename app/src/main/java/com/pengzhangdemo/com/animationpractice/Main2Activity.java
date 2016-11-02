@@ -16,16 +16,20 @@ public class Main2Activity extends AppCompatActivity {
 
 
     /**
-     * 跳转到 CustomLunchView
+     * 跳转到 CustomLunchView,startTriangle,startLunchView,startMovePath
      * @param view
      */
     public void startLunchView(View view){
         startAct(MainActivity.class);
     }
 
+    public void startTriangle(View view){
+        startAct(TriangleActivity.class);
+    }
 
-
-
+    public void startMovePath(View view){
+        startAct(MovePathActivity.class);
+    }
 
 
 

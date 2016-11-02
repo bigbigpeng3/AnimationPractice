@@ -106,20 +106,22 @@ public class LaucherView extends RelativeLayout {
     public void start() {
 
 
-        //路径1
-        ViewPath redPath1 = new ViewPath(); //偏移坐标
-        redPath1.moveTo(0, 0);
-        redPath1.lineTo(mWidth / 5 - mWidth / 2, 0);
 
 
 
-        ObjectAnimator redAnim1 = ObjectAnimator.ofObject(red, "fabLoc", new ViewPathEvaluator(), redPath1.getPoints().toArray());
-        redAnim1.setInterpolator(new AccelerateDecelerateInterpolator());
-        redAnim1.setDuration(2000);
 
-        redAnim1.start();
-
-
+//        AnimatorSet set = new AnimatorSet();
+//        set.playTogether(
+//                ObjectAnimator.ofFloat(red, "rotationX", 0, 360),
+//                ObjectAnimator.ofFloat(red, "rotationY", 0, 180),
+//                ObjectAnimator.ofFloat(red, "rotation", 0, -90),
+//                ObjectAnimator.ofFloat(red, "translationX", 0, 90),
+//                ObjectAnimator.ofFloat(red, "translationY", 0, 90),
+//                ObjectAnimator.ofFloat(red, "scaleX", 1, 1.5f),
+//                ObjectAnimator.ofFloat(red, "scaleY", 1, 1.5f),
+//                ObjectAnimator.ofFloat(red, "alpha", 1, 0.25f)
+//        );
+//        set.setDuration(5 * 1000).start();
 
 
     }

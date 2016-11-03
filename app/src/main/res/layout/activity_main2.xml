@@ -27,8 +27,20 @@
             android:layout_height="wrap_content"/>
 
         <Button
-            android:text="startMovePath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:onClick="startMovePath"
+            android:text="startMovePath" />
+
+        <Button
+            android:text="startSecondOrder"
+            android:onClick="startSecondOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="startThreeOrder"
+            android:onClick="startThreeOrder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 

@@ -5,6 +5,10 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.pengzhangdemo.com.animationpractice.custombezier.SecondOrderActivity;
+import com.pengzhangdemo.com.animationpractice.custombezier.ThreeOrderActivity;
+import com.pengzhangdemo.com.animationpractice.custombezier.ThreeOrderBezier;
+
 public class Main2Activity extends AppCompatActivity {
 
 
@@ -16,7 +20,12 @@ public class Main2Activity extends AppCompatActivity {
 
 
     /**
-     * 跳转到 CustomLunchView,startTriangle,startLunchView,startMovePath
+     * 跳转到 CustomLunchView,
+     * startTriangle,
+     * startLunchView,
+     * startMovePath,
+     * startSecondOrder
+     * startThreeOrder
      * @param view
      */
     public void startLunchView(View view){
@@ -29,6 +38,14 @@ public class Main2Activity extends AppCompatActivity {
 
     public void startMovePath(View view){
         startAct(MovePathActivity.class);
+    }
+
+    public void startSecondOrder(View view){
+        startAct(SecondOrderActivity.class);
+    }
+
+    public void startThreeOrder(View view){
+        startAct(ThreeOrderActivity.class);
     }
 
 
